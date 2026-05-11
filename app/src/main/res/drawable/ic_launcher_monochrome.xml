@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Monochrome variant for Material You themed icons (Android 13+).
+    The system tints the visible (non-transparent) path automatically
+    against the wallpaper-derived palette; we keep just the outline
+    silhouette in opaque "black" — the platform supplies the colour.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="
+            M54,26
+            C 44,40 36,52 36,64
+            C 36,76 44,86 54,86
+            C 64,86 72,76 72,64
+            C 72,56 68,49 62,44
+            C 64,52 60,58 54,58
+            C 50,58 47,55 48,49
+            C 49,42 52,34 54,26 Z" />
+
+</vector>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Base Activity theme for the HeaterRC Compose app. The Compose
+        hierarchy itself is themed by HeaterRcTheme (Material You /
+        dynamic colour scheme), so this Activity-level theme only needs
+        to strip the system ActionBar and let the Compose surface fill
+        the window edge-to-edge.
+
+        Without windowActionBar=false / windowNoTitle=true the platform
+        renders a duplicate "StandHeizungFB" header above our
+        TopAppBar (the app label from android:label is wired into the
+        legacy ActionBar).
+    -->
+    <style name="Theme.HeaterRC" parent="@android:style/Theme.DeviceDefault.DayNight">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>

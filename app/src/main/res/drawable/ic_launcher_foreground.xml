@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Adaptive-icon foreground for HeaterRC. The 108dp viewport with a
+    72dp safe zone in the middle is the standard adaptive-icon shape;
+    keep all visible strokes inside (18,18)–(90,90).
+
+    Outer path: stylised flame outline in white.
+    Inner path: secondary flame tongue in light orange for depth.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer flame body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M54,26
+            C 44,40 36,52 36,64
+            C 36,76 44,86 54,86
+            C 64,86 72,76 72,64
+            C 72,56 68,49 62,44
+            C 64,52 60,58 54,58
+            C 50,58 47,55 48,49
+            C 49,42 52,34 54,26 Z" />
+
+    <!-- Inner flame highlight -->
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="
+            M54,58
+            C 49,65 46,71 46,76
+            C 46,82 50,86 54,86
+            C 58,86 62,82 62,76
+            C 62,72 60,69 57,67
+            C 58,71 56,73 54,73
+            C 52,73 51,72 52,69
+            C 52,66 53,62 54,58 Z" />
+
+</vector>
