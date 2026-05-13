@@ -1,4 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name" translatable="false">Preheat</string>
-</resources>
+    <string name="authorname" translatable="false">DynamiteTuning</string>
+    <string name="tab_config_name">Config</string>
+    <string name="tab_home_name">Heater</string>
+    <string name="tab_gpstrack_name" translatable="false">GPS-Tracker</string>
+    <string name="helptext">Before you can start to use this application, please enter a valid phone number in the Config tab.\n
+        By pressing the command buttons in the Home tab, a message with the configured text is sent to the stored phone number.\n
+        Use the Timer tab for a timed start request.</string>
+    <string name="helptextGPS">Use this tab to send a message with the configured text to the configured phone number.\n
+        A possible application can be the GPS-Tracker which is using text messages for transmitting the GPS location.</string>
+
+    <string name="com_restoredfltbutton">Restore defaults</string>
+    <string name="com_warning">WARNING</string>
+    <string name="com_restore_warning">You are going to restore the default values. Please confirm</string>
+    <string name="com_cancelbutton">Cancel</string>
+    <string name="com_restorebutton">Restore</string>
+    <string name="com_pos_btn">OK</string>
+    <string name="com_cnfgErrTitle">Config Error</string>
+    <string name="com_cnfgErrTxt">Please enter a valid phone number</string>
+    <string name="com_smsCounter">SMS counter</string>
+    <string name="com_SMSsendwarning">An SMS is going to be sent to the remote device</string>
+    <string name="com_reset_txt">SMS counter has been reset</string>
+    <string name="com_Restartwarning">Please restart the application to activate the changes</string>
+    <string name="com_smsCounterExceed">The SMS counter is greater than </string>
+    <string name="com_sendFailed">SMS send failed</string>
+
+    <!-- Phase 5 UX redesign: status labels and section headers -->
+    <string name="ui_status_ready">Ready</string>
+    <string name="ui_status_sending">Sending…</string>
+    <string name="ui_status_not_configured">Not configured</string>
+    <string name="ui_section_action">Action</string>
+    <string name="ui_section_setup">Setup</string>
+    <string name="ui_section_connection">Connection</string>
+    <string name="ui_section_heater_commands">Heater commands</string>
+    <string name="ui_section_heating_timer">Heating timer</string>
+    <string name="ui_section_limits_billing">Limits &amp; billing</string>
+    <string name="ui_section_notifications">Notifications</string>
+    <string name="ui_section_mode">Mode</string>
+    <string name="ui_section_queries">Requests</string>
+    <string name="ui_last_command_prefix">Last:</string>
+    <string name="ui_welcome_title">Welcome to Preheat</string>
+    <string name="ui_section_reset">Reset</string>
+    <string name="ui_section_about">About</string>
+    <string name="ui_reset_sms_counter">Reset SMS counter</string>
+    <string name="ui_reset_sms_counter_supporting">%1$d SMS sent so far</string>
+    <string name="ui_reset_defaults_supporting">Clears every setting except the SMS counter</string>
+    <string name="ui_about_version">Version</string>
+    <string name="ui_about_author">Author</string>
+
+    <string name="com_PrepaidCreditTitle">Prepaid Credit</string>
+    <string name="cfg_tvphonenumber">Phone number</string>
+    <string name="cfg_phonenumber" translatable="false">0</string>
+    <string name="cfg_tvstartcmd">Start</string>
+    <string name="cfg_startcmd" translatable="false">START</string>
+    <string name="cfg_tvstopcmd">Stop</string>
+    <string name="cfg_stopcmd" translatable="false">STOP</string>
+    <string name="cfg_tvtempcmd">Temperature</string>
+    <string name="cfg_tempcmd" translatable="false">TEMP</string>
+    <string name="cfg_tvsummercmd">Summer</string>
+    <string name="cfg_summercmd" translatable="false">SUMMER</string>
+    <string name="cfg_tvwintercmd">Winter</string>
+    <string name="cfg_wintercmd" translatable="false">WINTER</string>
+    <string name="cfg_tvstatuscmd">Status</string>
+    <string name="cfg_statuscmd" translatable="false">STATUS</string>
+    <string name="cfg_tvheatdurationcmd">Command</string>
+    <string name="cfg_heattimercmd" translatable="false">1234TIMER1:</string>
+    <string name="cfg_tvheatduration">Duration (minutes)</string>
+    <string name="cfg_heatduration" translatable="false">060</string>
+    <string name="cfg_tvSMSfeedbackcmd">Command</string>
+    <string name="cfg_SMSfeedbackcmd" translatable="false">1234ASPONSE:</string>
+    <string name="cfg_tvSMSfeedback">SMS feedback</string>
+    <string name="cfg_checknumbertext">The entered phone number is not valid</string>
+    <string name="cfb_cbGPStracker">Enable GPS-tracker Tab</string>
+    <string name="cfg_GPSposReqCmd" translatable="false">$WP+GETLOCATION=0000</string>
+    <string name="cfg_tvPosReqCmd">Command</string>
+    <string name="cfg_tvphonenumberGPS">Phone number</string>
+    <string name="cfg_tvMaxSMScount">SMS limit</string>
+    <string name="cfg_maxSMScount" translatable="false">0</string>
+    <string name="cfg_tvPrepaidCredit">Prepaid credit</string>
+    <string name="cfg_prepaidCredit" translatable="false">0.0</string>
+    <string name="cfg_tvSMScost">SMS cost</string>
+    <string name="cfg_SMScost" translatable="false">0.0</string>
+    <string name="sh_startbutton">Start</string>
+    <string name="sh_stopbutton">Stop</string>
+    <string name="sh_tempbutton">Temperature</string>
+    <string name="sh_summerbutton">Summer</string>
+    <string name="sh_winterbutton">Winter</string>
+    <string name="sh_statusbutton">Status</string>
+    <string name="sh_helpbutton">Help</string>
+    <string name="sh_tvgpstracker">GPS-Tracker Request</string>
+
+    <string name="gt_GPSposReqBtn">Request GPS position</string>
+
+    <string name="sp_destNumb" translatable="false">destNumb</string>
+    <string name="sp_startCmd" translatable="false">startCmd</string>
+    <string name="sp_stopCmd" translatable="false">stopCmd</string>
+    <string name="sp_tempCmd" translatable="false">tempCmd</string>
+    <string name="sp_summerCmd" translatable="false">summerCmd</string>
+    <string name="sp_winterCmd" translatable="false">winterCmd</string>
+    <string name="sp_statusCmd" translatable="false">statusCmd</string>
+    <string name="sp_smsCounter" translatable="false">smsCounter</string>
+    <string name="sp_lastCommand" translatable="false">lastCommand</string>
+    <string name="sp_lastCommandTimestamp" translatable="false">lastCommandTimestamp</string>
+    <string name="sp_lastMode" translatable="false">lastMode</string>
+    <string name="sp_sendBtnEnabled" translatable="false">sendBtnEnabled</string>
+    <string name="sp_heatDurationCmd" translatable="false">heatDurationCmd</string>
+    <string name="sp_heatDuration" translatable="false">heatDuration</string>
+    <string name="sp_smsFeedbackCmd" translatable="false">smsFeedbackCmd</string>
+    <string name="sp_smsFeedback" translatable="false">smsFeedback</string>
+    <string name="sp_GPStrackerTab" translatable="false">GPStrackerTab</string>
+    <string name="sp_GPSposReqCmd" translatable="false">GPSposReqCmd</string>
+    <string name="sp_destNumbGPS" translatable="false">destNumbGPS</string>
+    <string name="sp_sendBtnEnabledGPS" translatable="false">sendBtnEnabledGPS</string>
+    <string name="sp_maxSMScount" translatable="false">maxSMScount</string>
+    <string name="sp_prepaidCredit" translatable="false">prepaidCredit</string>
+    <string name="sp_SMScost" translatable="false">SMScost</string>
+
+    </resources>
