@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Preheat</string>
+    <string name="tab_config_name">Config</string>
+    <string name="tab_home_name">Chauffage</string>
+    <string name="helptext">Avant que vous pouvez utiliser cet application, vous devriez saisir le numéro de téléphone mobile du chauffage dans l\'onglet \'config\'.\n
+	Quand vous actionnez la touche de commande, un SMS sera envoyé à le numéro de téléphone du chauffage avec le texte pré-configuré.\n
+	Utilisez l\'onglet \'Timer\' pour un lancement programmé.</string>
+    <string name="helptextGPS">Utilisez cet onglet pour envoyé un SMS avec le texte pré-configuré à le numéro de téléphone sauvé.\n
+	Une utilisation possible est la transmission de la position GPS actuelle en untilisant le GPS-Tracker.</string>
+
+    <string name="com_restoredfltbutton">Paramètres d\'origine</string>
+    <string name="com_warning">ALERTE</string>
+    <string name="com_restore_warning">Les paramètres d\'origine seront reconstitué. Confirmez s.v.p.</string>
+    <string name="com_cancelbutton">Annuler</string>
+    <string name="com_restorebutton">Reconstituer</string>
+    <string name="com_pos_btn">Continuer</string>
+    <string name="com_cnfgErrTitle">Erreur de configuration</string>
+    <string name="com_cnfgErrTxt">S.v.p. saisiez un numéro de téléphone mobile valide dans l\'onglet \'config\'</string>
+    <string name="com_smsCounter">Compteur de SMS</string>
+    <string name="com_SMSsendwarning">Un SMS sera envoyé à votre chauffage autonome</string>
+    <string name="com_reset_txt">Le compteur a été réinitialisé</string>
+    <string name="com_Restartwarning">Redémarrer l\'application, s.v.p.</string>
+    <string name="com_smsCounterExceed">Le compteur SMS est supérieur à </string>
+    <string name="com_sendFailed">Échec de l\'envoi du SMS</string>
+
+    <!-- Phase 5 UX redesign: status labels and section headers -->
+    <string name="ui_status_ready">Prêt</string>
+    <string name="ui_status_sending">Envoi…</string>
+    <string name="ui_status_not_configured">Non configuré</string>
+    <string name="ui_section_action">Action</string>
+    <string name="ui_section_setup">Configuration</string>
+    <string name="ui_section_connection">Connexion</string>
+    <string name="ui_section_heater_commands">Commandes du chauffage</string>
+    <string name="ui_section_heating_timer">Minuterie</string>
+    <string name="ui_section_limits_billing">Limites et facturation</string>
+    <string name="ui_section_notifications">Notifications</string>
+    <string name="ui_section_mode">Mode</string>
+    <string name="ui_section_queries">Requêtes</string>
+    <string name="ui_last_command_prefix">Dernier :</string>
+    <string name="ui_welcome_title">Bienvenue dans Preheat</string>
+    <string name="ui_section_reset">Réinitialiser</string>
+    <string name="ui_section_about">À propos</string>
+    <string name="ui_reset_sms_counter">Réinitialiser le compteur SMS</string>
+    <string name="ui_reset_sms_counter_supporting">SMS envoyés jusqu\'à présent : %1$d</string>
+    <string name="ui_reset_defaults_supporting">Efface tous les paramètres sauf le compteur SMS</string>
+    <string name="ui_about_version">Version</string>
+    <string name="ui_about_author">Auteur</string>
+
+    <string name="com_PrepaidCreditTitle">Crédit prépayé</string>
+    <string name="cfg_tvphonenumber">Numéro de téléphone</string>
+    <string name="cfg_tvstartcmd">Démarrer</string>
+    <string name="cfg_tvstopcmd">Arrêter</string>
+    <string name="cfg_tvtempcmd">Température</string>
+    <string name="cfg_tvsummercmd">Été</string>
+    <string name="cfg_tvwintercmd">Hiver</string>
+    <string name="cfg_tvstatuscmd">État</string>
+    <string name="cfg_tvheatduration">Durée (minutes)</string>
+    <string name="cfg_tvheatdurationcmd">Commande</string>
+    <string name="cfg_tvSMSfeedbackcmd">Commande</string>
+    <string name="cfg_tvSMSfeedback">Confirmation par SMS</string>
+    <string name="cfg_checknumbertext">Ce numéro n\'est pas correct</string>
+    <string name="cfb_cbGPStracker">Enable GPS-tracker Tab</string>
+    <string name="cfg_tvPosReqCmd">Commande</string>
+    <string name="cfg_tvphonenumberGPS">Numéro de téléphone</string>
+    <string name="cfg_tvMaxSMScount">Limite SMS</string>
+    <string name="cfg_tvPrepaidCredit">Crédit prépayé</string>
+    <string name="cfg_tvSMScost">Coût d\'un SMS</string>
+    <string name="sh_startbutton">Démarrer</string>
+    <string name="sh_stopbutton">Arrêter</string>
+    <string name="sh_tempbutton">Température</string>
+    <string name="sh_summerbutton">Été</string>
+    <string name="sh_winterbutton">Hiver</string>
+    <string name="sh_statusbutton">État</string>
+    <string name="sh_helpbutton">Instruction</string>
+    <string name="sh_tvgpstracker">Demande GPS-Tracker</string>
+
+    <string name="gt_GPSposReqBtn">Demande position GPS</string>
+
+    </resources>

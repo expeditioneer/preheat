@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Preheat</string>
+    <string name="tab_config_name">Config</string>
+    <string name="tab_home_name">Riscaldamento</string>
+    <string name="helptext">Per poter utilizzare questa applicazione, è necessario inserire un numero cellulare valido nel tab \'Config\'.\n
+	Premendo i pulsanti di comando nel tab \'Home\', verrà inviato un SMS con il testo preconfigurato al numero salvato.\n
+	Per un avvio programmato usate il tab \'Timer\'.</string>
+    <string name="helptextGPS">Usate questo tab per inviare un SMS con il testo preconfigurato al numero salvato.\n
+	    Un possibile utilizzo è per la trasmissione della posizione attuale GPS tramite GPS-Tracker.</string>
+
+    <string name="com_restoredfltbutton">Ripristino</string>
+    <string name="com_warning">ATTENZIONE</string>
+    <string name="com_restore_warning">State per ripristinare i valori standard. Confermare prego</string>
+    <string name="com_cancelbutton">Esci</string>
+    <string name="com_restorebutton">Ripristinare</string>
+    <string name="com_pos_btn">Prosegui</string>
+    <string name="com_cnfgErrTitle">Errore di configurazione</string>
+    <string name="com_cnfgErrTxt">Inserire un numero valido nel tab di configurazione.</string>
+    <string name="com_smsCounter">Contatore SMS</string>
+    <string name="com_SMSsendwarning">Sta per essere inviato un SMS all\'apparecchio remoto</string>
+    <string name="com_reset_txt">Il contatore SMS è stato resettato</string>
+    <string name="com_Restartwarning">Riavviare l\'applicazione p.f.</string>
+    <string name="cfg_tvphonenumber">Numero di telefono</string>
+    <string name="cfg_tvstartcmd">Avvio</string>
+    <string name="cfg_tvstopcmd">Stop</string>
+    <string name="cfg_tvtempcmd">Temperatura</string>
+    <string name="cfg_tvsummercmd">Estate</string>
+    <string name="cfg_tvwintercmd">Inverno</string>
+    <string name="cfg_tvstatuscmd">Stato</string>
+    <string name="cfg_tvheatduration">Durata (minuti)</string>
+    <string name="cfg_tvheatdurationcmd">Comando</string>
+    <string name="cfg_tvSMSfeedbackcmd">Comando</string>
+    <string name="cfg_tvSMSfeedback">Conferma via SMS</string>
+    <string name="cfg_checknumbertext">Il numero inserito non è valido</string>
+    <string name="cfb_cbGPStracker">Attivare Tab GPS-tracker</string>
+    <string name="cfg_tvPosReqCmd">Comando</string>
+    <string name="cfg_tvphonenumberGPS">Numero di telefono</string>
+    <string name="cfg_tvMaxSMScount">Limite SMS</string>
+    <string name="sh_startbutton">Avvio</string>
+    <string name="sh_stopbutton">Stop</string>
+    <string name="sh_tempbutton">Temperatura</string>
+    <string name="sh_summerbutton">Estate</string>
+    <string name="sh_winterbutton">Inverno</string>
+    <string name="sh_statusbutton">Stato</string>
+    <string name="sh_helpbutton">Istruzioni</string>
+    <string name="sh_tvgpstracker">Richiesta GPS-Tracker</string>
+
+    <string name="gt_GPSposReqBtn">Richiesta posizione GPS</string>
+
+    <string name="com_smsCounterExceed">Il contatore SMS è maggiore di</string>
+    <string name="com_sendFailed">Invio SMS fallito</string>
+
+    <!-- Phase 5 UX redesign: status labels and section headers -->
+    <string name="ui_status_ready">Pronto</string>
+    <string name="ui_status_sending">Invio…</string>
+    <string name="ui_status_not_configured">Non configurato</string>
+    <string name="ui_section_action">Azione</string>
+    <string name="ui_section_setup">Configurazione</string>
+    <string name="ui_section_connection">Connessione</string>
+    <string name="ui_section_heater_commands">Comandi riscaldatore</string>
+    <string name="ui_section_heating_timer">Timer</string>
+    <string name="ui_section_limits_billing">Limiti e fatturazione</string>
+    <string name="ui_section_notifications">Notifiche</string>
+    <string name="ui_section_mode">Modalità</string>
+    <string name="ui_section_queries">Richieste</string>
+    <string name="ui_last_command_prefix">Ultimo:</string>
+    <string name="ui_welcome_title">Benvenuto in Preheat</string>
+    <string name="ui_section_reset">Reimposta</string>
+    <string name="ui_section_about">Informazioni</string>
+    <string name="ui_reset_sms_counter">Reimposta il contatore SMS</string>
+    <string name="ui_reset_sms_counter_supporting">SMS inviati finora: %1$d</string>
+    <string name="ui_reset_defaults_supporting">Cancella tutte le impostazioni tranne il contatore SMS</string>
+    <string name="ui_about_version">Versione</string>
+    <string name="ui_about_author">Autore</string>
+
+    <string name="com_PrepaidCreditTitle">Credito prepagato</string>
+    <string name="cfg_tvPrepaidCredit">Credito prepagato</string>
+    <string name="cfg_tvSMScost">Costo per SMS</string>
+    </resources>
