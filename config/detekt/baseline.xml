@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SmellBaseline>
+  <ManuallySuppressedIssues/>
+  <CurrentIssues>
+    <ID>FunctionNaming:ConfigScreen.kt$@Composable internal fun ConfigScreen( viewModel: ConfigViewModel = viewModel(factory = ConfigViewModel.Factory), )</ID>
+    <ID>FunctionNaming:ConfigScreen.kt$@Composable private fun Section( title: String, content: @Composable () -> Unit, )</ID>
+    <ID>FunctionNaming:ConfigScreen.kt$@Composable private fun SettingRow( label: String, value: String, onClick: () -> Unit, )</ID>
+    <ID>FunctionNaming:ConfigScreen.kt$@Preview(showBackground = true, heightDp = 1600) @Composable private fun ConfigScreenPreview()</ID>
+    <ID>FunctionNaming:GPStrackerScreen.kt$@Composable internal fun GPStrackerScreen( viewModel: GPStrackerViewModel = viewModel(factory = GPStrackerViewModel.Factory), )</ID>
+    <ID>FunctionNaming:GPStrackerScreen.kt$@Composable private fun SettingRow(label: String, value: String, onClick: () -> Unit)</ID>
+    <ID>FunctionNaming:GPStrackerScreen.kt$@Composable private fun StatusCard(uiState: GPStrackerUiState)</ID>
+    <ID>FunctionNaming:GPStrackerScreen.kt$@Preview(showBackground = true, heightDp = 720) @Composable private fun GPStrackerScreenPreview()</ID>
+    <ID>FunctionNaming:HeaterRcTheme.kt$@Composable internal fun HeaterRcTheme(content: @Composable () -> Unit)</ID>
+    <ID>FunctionNaming:Helpers.kt$@Composable internal fun SectionLabel(text: String)</ID>
+    <ID>FunctionNaming:Helpers.kt$@OptIn(ExperimentalMaterial3Api::class) @Composable internal fun EditTextBottomSheet( title: String, initialValue: String, keyboardType: KeyboardType = KeyboardType.Text, validate: (String) -> Boolean = { it.isNotEmpty() }, supportingText: String? = null, onConfirm: (String) -> Unit, onDismiss: () -> Unit, )</ID>
+    <ID>FunctionNaming:MainActivity.kt$@OptIn(ExperimentalMaterial3Api::class) @Composable private fun MainScreen( viewModel: MainViewModel = viewModel(factory = MainViewModel.Factory), )</ID>
+    <ID>FunctionNaming:StandHeizungScreen.kt$@Composable internal fun StandHeizungScreen( viewModel: StandHeizungViewModel = viewModel(factory = StandHeizungViewModel.Factory), )</ID>
+    <ID>FunctionNaming:StandHeizungScreen.kt$@Composable private fun PrimaryAction( icon: ImageVector, label: String, enabled: Boolean, modifier: Modifier = Modifier, onClick: () -> Unit, )</ID>
+    <ID>FunctionNaming:StandHeizungScreen.kt$@Composable private fun SecondaryAction( icon: ImageVector, label: String, enabled: Boolean, modifier: Modifier = Modifier, onClick: () -> Unit, )</ID>
+    <ID>FunctionNaming:StandHeizungScreen.kt$@Composable private fun StatPill(label: String, value: String, modifier: Modifier = Modifier)</ID>
+    <ID>FunctionNaming:StandHeizungScreen.kt$@Composable private fun StatusCard(uiState: StandHeizungUiState)</ID>
+    <ID>FunctionNaming:StandHeizungScreen.kt$@OptIn(ExperimentalMaterial3Api::class) @Composable private fun WelcomeSheet( title: String, text: String, onDismiss: () -> Unit, )</ID>
+    <ID>FunctionNaming:StandHeizungScreen.kt$@Preview(showBackground = true, heightDp = 720) @Composable private fun StandHeizungScreenPreview()</ID>
+    <ID>LongMethod:ConfigScreen.kt$@Composable internal fun ConfigScreen( viewModel: ConfigViewModel = viewModel(factory = ConfigViewModel.Factory), )</ID>
+    <ID>LongMethod:GPStrackerScreen.kt$@Composable internal fun GPStrackerScreen( viewModel: GPStrackerViewModel = viewModel(factory = GPStrackerViewModel.Factory), )</ID>
+    <ID>LongMethod:StandHeizungScreen.kt$@Composable internal fun StandHeizungScreen( viewModel: StandHeizungViewModel = viewModel(factory = StandHeizungViewModel.Factory), )</ID>
+    <ID>LongMethod:StandHeizungScreen.kt$@Composable private fun StatusCard(uiState: StandHeizungUiState)</ID>
+    <ID>LongParameterList:Helpers.kt$( title: String, initialValue: String, keyboardType: KeyboardType = KeyboardType.Text, validate: (String) -> Boolean = { it.isNotEmpty() }, supportingText: String? = null, onConfirm: (String) -> Unit, onDismiss: () -> Unit, )</ID>
+    <ID>MagicNumber:ConfigScreen.kt$ConfigField$15999</ID>
+    <ID>MagicNumber:ConfigScreen.kt$ConfigField$3</ID>
+    <ID>MagicNumber:ConfigScreen.kt$ConfigField$5</ID>
+    <ID>MagicNumber:ConfigScreen.kt$ConfigField$998</ID>
+    <ID>MagicNumber:ConfigViewModel.kt$ConfigViewModel$16000</ID>
+    <ID>MagicNumber:ConfigViewModel.kt$ConfigViewModel$3</ID>
+    <ID>MagicNumber:ConfigViewModel.kt$ConfigViewModel$5</ID>
+    <ID>MagicNumber:ConfigViewModel.kt$ConfigViewModel$999</ID>
+    <ID>MaxLineLength:ConfigScreen.kt$SettingRow(stringResource(R.string.cfg_tvMaxSMScount), uiState.maxSmsCount) { editing = ConfigField.MaxSmsCount }</ID>
+    <ID>MaxLineLength:ConfigScreen.kt$SettingRow(stringResource(R.string.cfg_tvPrepaidCredit), uiState.prepaidCredit) { editing = ConfigField.PrepaidCredit }</ID>
+    <ID>MaxLineLength:ConfigScreen.kt$SettingRow(stringResource(R.string.cfg_tvSMSfeedbackcmd), uiState.smsFeedbackCmd) { editing = ConfigField.SmsFeedbackCmd }</ID>
+    <ID>MaxLineLength:ConfigScreen.kt$SettingRow(stringResource(R.string.cfg_tvheatduration), uiState.heatDuration) { editing = ConfigField.HeatDuration }</ID>
+    <ID>MaxLineLength:ConfigScreen.kt$SettingRow(stringResource(R.string.cfg_tvheatdurationcmd), uiState.heatDurationCmd) { editing = ConfigField.HeatDurationCmd }</ID>
+    <ID>TooManyFunctions:ConfigViewModel.kt$ConfigViewModel : ViewModel</ID>
+    <ID>TooManyFunctions:SettingsRepository.kt$SettingsRepository</ID>
+    <ID>UnusedPrivateMember:ConfigScreen.kt$@Preview(showBackground = true, heightDp = 1600) @Composable private fun ConfigScreenPreview()</ID>
+    <ID>UnusedPrivateMember:GPStrackerScreen.kt$@Preview(showBackground = true, heightDp = 720) @Composable private fun GPStrackerScreenPreview()</ID>
+    <ID>UnusedPrivateMember:StandHeizungScreen.kt$@Preview(showBackground = true, heightDp = 720) @Composable private fun StandHeizungScreenPreview()</ID>
+  </CurrentIssues>
+</SmellBaseline>

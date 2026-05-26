@@ -1,10 +1,24 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.compose.compiler)
+    alias(libs.plugins.detekt)
+    alias(libs.plugins.cyclonedx.bom)
     // Kotlin support is built into AGP 9.0+; the standalone
     // org.jetbrains.kotlin.android plugin must NOT be applied — it
     // throws a hard error against AGP 9.0+ built-in Kotlin.
     // See https://kotl.in/gradle/agp-built-in-kotlin
+}
+
+detekt {
+    buildUponDefaultConfig = true
+    baseline = file("$rootDir/config/detekt/baseline.xml")
+}
+
+tasks.cyclonedxDirectBom {
+    includeConfigs.set(listOf("releaseRuntimeClasspath"))
+    skipConfigs.set(listOf(".*test.*", ".*Test.*", ".*debug.*", ".*Debug.*"))
+    jsonOutput.set(layout.buildDirectory.file("reports/sbom/bom.json"))
+    xmlOutput.set(layout.buildDirectory.file("reports/sbom/bom.xml"))
 }
 
 android {

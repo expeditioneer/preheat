@@ -5,6 +5,8 @@ compose-bom = "2026.05.01"
 androidx-activity-compose = "1.13.0"
 androidx-datastore = "1.2.1"
 androidx-lifecycle = "2.10.0"
+detekt = "1.23.8"
+cyclonedx = "3.2.4"
 
 android-compileSdk = "36"
 android-targetSdk = "36"
@@ -26,3 +28,5 @@ compose-material-icons-extended      = { module = "androidx.compose.material:mat
 [plugins]
 android-application = { id = "com.android.application",             version.ref = "agp" }
 compose-compiler    = { id = "org.jetbrains.kotlin.plugin.compose",  version.ref = "kotlin" }
+detekt              = { id = "io.gitlab.arturbosch.detekt",          version.ref = "detekt" }
+cyclonedx-bom       = { id = "org.cyclonedx.bom",                    version.ref = "cyclonedx" }
