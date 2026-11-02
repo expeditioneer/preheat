@@ -37,12 +37,12 @@
           packages = [
             jdk
             androidSdk
-            pkgs.android-tools
           ];
 
           ANDROID_HOME = androidSdkRoot;
           ANDROID_SDK_ROOT = androidSdkRoot;
           JAVA_HOME = "${jdk}/lib/openjdk";
+          GRADLE_OPTS = "-Dorg.gradle.project.android.aapt2FromMavenOverride=${androidSdkRoot}/build-tools/36.0.0/aapt2";
 
           shellHook = ''
             export ANDROID_USER_HOME="$PWD/.android"
